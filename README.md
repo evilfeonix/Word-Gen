@@ -1,7 +1,10 @@
+![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg) 
+
 # WordList Generator - `WORD-GEN`
 
-### Version: 1.0  
+### Version: 1.0
 ### Author: EvilFeonix  
+### Tool Name: Word-Gen
 ### Date: 16 - DECEMBER - 2024  
 ### Website: [www.evilfeonix.com](http://www.evilfeonix.com)  
 ### Email: evilfeonix@gmail.com  
@@ -44,7 +47,7 @@ This tool Requirs to first configure the `config.ini` file before executing the 
 ## Usage
  Basic Command:
   ```bash
-python3 wordlist_generator.py [OPTIONS...]
+python3 word.py [OPTIONS...]
   ```
 
 ---
@@ -88,6 +91,8 @@ python3 word.py
 
 ## Screenshots
 Tool Banner:
+
+![EvilFeonix Basic v1.0](https://github.com/evilfeonix/WORD-GEN/blob/main/word.png)
 
 ---
 
