@@ -28,16 +28,21 @@ The creators of this tool are not responsible for any misuse or damage caused by
 ---
 
 ## Installation
-    Clone the repository:
+ Clone the repository:
    ```bash
-   git clone https://github.com/evilfeonix/wordlist-generator.git
-   cd wordlist-generator
+   git clone https://github.com/evilfeonix/Word-Gen.git
+   cd Word-Gen
   ```
+
+---
+
+## Requirement
+This tool Requirs to first configure the `config.ini` file before executing the main script(`word.py`).
 
 ---
   
 ## Usage
-    Basic Command:
+ Basic Command:
   ```bash
 python3 wordlist_generator.py [OPTIONS...]
   ```
@@ -55,10 +60,10 @@ python3 wordlist_generator.py [OPTIONS...]
 ---
 
 ## Examples:
-    Generate a wordlist:
+ Generate a wordlist:
 
   ```bash 
-python3 wordlist_generator.py --iniList words.txt --minLen 6 --maxLen 12
+python3 word.py --iniList words.txt --minLen 6 --maxLen 12
   ```
 
 ---
@@ -66,16 +71,17 @@ python3 wordlist_generator.py --iniList words.txt --minLen 6 --maxLen 12
 ## Use default parameters:
 
   ```bash
-python3 wordlist_generator.py
+python3 word.py
   ```
 
 ---
 
 ## Output
-    The generated wordlist is saved in the WordLists directory.
-    Files are named using the current date and time for easy identification:
+- The generated wordlist is saved in the WordLists directory.
+- Files are named using the current date and time for easy identification:
+  
   ```bash
-WordLists/wordlist_2024-12-16_12-00-00.txt
+    WordLists/wordlist_2024-12-16_12-00-00.txt
   ```
 
 ---
