@@ -116,7 +116,7 @@ The developers are not responsible for any misuse or damage caused by this tool.
 ---
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the GPL License. See the LICENSE file for details.
 
 ---
 
