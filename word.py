@@ -11,7 +11,7 @@
 
 
 from datetime import datetime
-import os, sys, time, argparse
+import os, sys, time, socket, argparse
 from itertools import permutations, combinations
 
 
@@ -31,7 +31,7 @@ second= f"{green}[{stop}02{green}]{purple} "
 
 def internet():
     try:
-        s = socket(AF_NET, SOCK_STREAM)
+        s = socket.socket(socket.AF_NET, socket.SOCK_STREAM)
         s.connect_ex(("www.google.com",80))
         return True
     except Exception:return False
@@ -156,8 +156,7 @@ def main():
     print(banner())
     net=internet()
 
-    if net:
-    # if not net:
+    if not net:
         time.sleep(2)
         print(f"\n{notice}Please check your internet connection{stop}")
         os.sys.exit()
